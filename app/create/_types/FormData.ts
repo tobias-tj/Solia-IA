@@ -8,6 +8,7 @@ interface FormData {
     prompt: string;
   };
   idea?: string;
+  pricing?: string;
 }
 
 export default FormData;

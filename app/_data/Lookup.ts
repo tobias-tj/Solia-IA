@@ -15,6 +15,35 @@ const textoLookup = {
   LogoDesignTitle: "Choose Your Logo Style",
   LogoDesignDescription:
     "Select the type of logo design that best represents your brands unique identity",
+  LogoIdeaTitle: "Select Your Design Idea",
+  LogoIdeaDescription:
+    "Choose a design style that aligns with your vision, or skip to receive a random suggestion.",
+  pricingOption: [
+    {
+      title: "Free",
+      icon: "/free.png",
+      features: [
+        "-> Generate unlimited logos for free",
+        "-> Longer wait times",
+        "-> Wait time: 30 seconds to 3 minutes",
+        "-> Limited Design Options and Quality",
+      ],
+      button: "Generate Free",
+    },
+    {
+      title: "Premium",
+      icon: "/premium.png",
+      features: [
+        "-> Generate unlimited logos",
+        "-> Shorter wait times",
+        "-> Wait time: Less than 10 seconds",
+        "-> Only 5 Credits",
+      ],
+      button: "Generate For 1 Credit",
+    },
+  ],
+  LogoPrincingTitle: "Select your AI Model Plan",
+  LogoPringDescription: "Generate Unlimted Fast Logo with your fav model.",
 };
 
 export default textoLookup;
